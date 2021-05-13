@@ -1,0 +1,161 @@
+*{
+    padding:0px;
+    margin: 0px;
+    --primary-color:#EC1E69;
+    --secondary-color:#213454;
+    --background-color: #FFEFF5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+}
+
+/*head part*/
+.head{
+    height: 70px;
+    width: 100%;
+    color:var(--primary-color);
+    background-color: white;
+}
+
+/*yumzy name */
+h2{
+    background-color: white;
+    padding:0px 25px;
+    line-height: 70px;
+    display: inline-block;
+}
+
+#x{
+    background-color: white;
+    position: relative;
+    left: 113px;
+    top:-20px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.head-bar1{
+    height: 4px;
+    width: 40px;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+
+.head-bar2{
+    height: 4px;
+    width: 40px;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 20px;
+    top:30px;
+}
+
+.head-bar3{
+    height: 4px;
+    width: 20px;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 20px;
+    top:40px;
+}
+
+
+
+/* media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*head part*/
+    .head{
+        width: 100vw;
+        height: 50px;
+    }
+
+    h2{
+        padding:0px 10px;
+        font-size: 16px;
+        padding:0.5rem 10px 0px 10px;
+        line-height: 40px;
+    }
+    
+    #x{
+        left: 70px;
+        top:-15px;
+        font-size: small;
+    }
+
+    .head-bar1{
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top:20px;
+    }
+    
+    .head-bar2{
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top:25px;
+    }
+    
+    .head-bar3{
+        height: 2px;
+        width: 15px;
+        position: absolute;
+        right: 20px;
+        top:30px;
+    }
+    
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 500px) {
+    /*head part*/
+    .head{
+        width: 100vw;
+        height: 50px;
+    }
+
+    h2{
+        padding:0px 10px;
+        font-size: 16px;
+        padding:0.5rem 10px 0px 10px;
+        line-height: 30px;
+    }
+    
+    #x{
+        left: 70px;
+        top:-15px;
+        font-size: small;
+        margin-top: 0.5rem;
+    }
+
+    .head-bar1{
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top:20px;
+    }
+    
+    .head-bar2{
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top:25px;
+    }
+    
+    .head-bar3{
+        height: 2px;
+        width: 15px;
+        position: absolute;
+        right: 20px;
+        top:30px;
+    }
+    
+}
